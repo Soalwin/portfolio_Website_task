@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+
+    <!-- animate -->
+       <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <!-- AOS ANIMATION -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="container">
+    <!-- Navbar -->
+    <nav>
+      <!-- Logo -->
+      <img class="logo"
+        src="https://png.pngtree.com/png-clipart/20190920/original/pngtree-hand-drawn-cute-vegetarian-green-leaf-logo-png-image_4646854.jpg"
+        alt="Logo" />
+
+      <!-- Navigation Links -->
+      <ul>
+        <li class="list-items"><a class="links" href="#home">Home</a></li>
+        <li class="list-items"><a class="links" href="#about">About</a></li>
+        <li class="list-items"><a class="links" href="#skills">Skill</a></li>
+        <li class="list-items"><a class="links" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+      <div class="home_content">
+        <h1 class="animate__animated animate__rubberBand" id="username"> I'm <span id="lname">Soalwin Thomas</span></h1>
+        <p id="user-details">This is my portfolio website to showcase my journey <br> and work in software and web
+          development</p>
+        <a href="./images/RESUME.pdf" id="download" download>VIEW BROCHURE</a>
+      </div>
+
+      <div class="home-img">
+        <!-- Shape -->
+        <img class="group1" src="./images/bg.png" alt="shape" id="shape" />
+        <!-- Person Image -->
+        <img class="group1" src="./images/ladyy.png" alt="person" id="girl" />
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="sectionhead">
+        <h2 class="mainHead">About Me</h2>
+        <span class="subHead">Introduction</span>
+      </div>
+
+      <div class="aboutbody">
+        <div class="aboutimg" data-aos="fade-right">
+          <img class="img1" src="./images/Lionel-Messi-Transparent-PNG.png" alt="About Image" />
+        </div>
+        <div class="aboutContent">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus assumenda repellendus temporibus sapiente
+            excepturi ratione ut pariatur provident recusandae, ullam necessitatibus mollitia quam adipisci quas, maxime
+            atque rem velit! Corporis.
+          </p>
+          <div class="information">
+            <div class="inforBox">
+              <i class="fa-solid fa-user"></i>
+              <span>Maria Joe</span>
+            </div>
+            <div class="inforBox">
+              <i class="fa-solid fa-phone"></i>
+              <span>9847275582</span>
+            </div>
+            <div class="inforBox">
+              <i class="fa-solid fa-envelope"></i>
+              <span>soalwinthomas@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="sectionhead">
+        <h2 class="mainHead">Skills</h2>
+        <span class="subHead">My Skills</span>
+      </div>
+
+      <div class="skillContent">
+        <div class="progressBars">
+          <!-- Portrait -->
+          <div class="bars">
+            <h3 class="barHead">Portrait</h3>
+            <span class="barPercent">93%</span>
+            <div class="baseBar"></div>
+            <div class="baseBar portBar"></div>
+          </div>
+
+          <!-- Landscape -->
+          <div class="bars">
+            <h3 class="barHead">Landscape</h3>
+            <span class="barPercent">93%</span>
+            <div class="baseBar"></div>
+            <div class="baseBar landBar"></div>
+          </div>
+
+          <!-- Editing -->
+          <div class="bars">
+            <h3 class="barHead">Editing</h3>
+            <span class="barPercent">93%</span>
+            <div class="baseBar"></div>
+            <div class="baseBar editBar"></div>
+          </div>
+
+          <!-- Wildlife -->
+          <div class="bars">
+            <h3 class="barHead">Wildlife</h3>
+            <span class="barPercent">93%</span>
+            <div class="baseBar"></div>
+            <div class="baseBar wildBar"></div>
+          </div>
+        </div>
+
+        <div class="skillImage">
+          <img class="img2"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s"
+            alt="Skills Image" />
+        </div>
+      </div>
+    </section> 
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="sectionhead">
+        <h2 class="mainHead">Contact</h2>
+        <span class="subHead">My Contact</span>
+      </div>
+
+      <div class="iconCollection">
+        <div class="icon">
+          <a href="https://www.linkedin.com/in/soalwin-thomas-63324a1b1/" target="_blank">
+            <i class="fa-brands fa-linkedin brands"></i>
+          </a>
+        </div>
+
+       <div class="icon">
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa-brands fa-instagram brands"></i>
+          </a>
+        </div>
+
+         <div class="icon">
+          <a href="https://github.com/Soalwin" target="_blank">
+            <i class="fa-brands fa-github brands"></i>
+          </a>
+        </div>
+
+         <div class="icon">
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa-brands fa-facebook brands"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+     <footer>
+      <p id="copyright">&copy; Maria Joe Photography Portfolio - June 2024,&reg; All Rights Reserved</p>
+      <div class="icon upArrow">
+        <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+      </div>
+     </footer>
+
+  </div> 
+
+  <!-- AOS animation Script -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+  AOS.init();
+</script>
+
+</body>
+
+</html>
